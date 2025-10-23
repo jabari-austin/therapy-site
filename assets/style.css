@@ -1,0 +1,231 @@
+/* Root color variables for easy customization */
+:root {
+--color-red: #c1272d; /* deep red */
+--color-green: #007e33; /* rich green */
+--color-black: #0d0d0d; /* near-black */
+/*--color-yellow: #ffcc00; /* logo yellow */
+--color-yellow: #f2f230; /*    */
+--light-bg: #fafafa;
+}
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+color: var(--color-black);
+background: var(--light-bg);
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+/* Navigation bar */
+nav {
+background: var(--color-black);
+color: var(--color-yellow);
+padding: 10px 0;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+nav .nav-wrapper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav .logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: var(--color-yellow);
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+nav li {
+margin-left: 20px;
+}
+nav a {
+color: var(--color-yellow);
+font-weight: 600;
+transition: opacity 0.3s ease;
+}
+nav a:hover {
+opacity: 0.8;
+}
+/* Hero section */
+.hero {
+background-image: url('../images/75f7ba59-09ff-4175-8dec-98689bc7a8e8.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: #fff;
+text-align: center;
+padding: 120px 20px;
+position: relative;
+}
+.hero::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.4);
+pointer-events: none;
+}
+.hero-content {
+position: relative;
+z-index: 1;
+max-width: 700px;
+margin: 0 auto;
+}
+.hero-content h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+.hero-content p {
+font-size: 1.1rem;
+margin: 0;
+}
+/* Section styling */
+section {
+padding: 60px 0;
+}
+section h2 {
+margin-top: 0;
+text-align: center;
+font-size: 2rem;
+margin-bottom: 20px;
+}
+/* About, services and testimonials section backgrounds */
+.about-section {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1.png') center/cover no-repeat;
+color: #fff;
+}
+.services-section {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene2.png') center/cover no-repeat;
+color: #fff;
+}
+.testimonials-section {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1.png') center/cover no-repeat;
+color: #fff;
+}
+/* About layout */
+.about {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.about .text {
+flex: 1 1 55%;
+padding-right: 20px;
+}
+.about .image {
+flex: 1 1 40%;
+text-align: center;
+}
+.about .image img {
+width: 100%;
+max-width: 350px;
+border-radius: 10px;
+}
+/* Services cards */
+.services {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.service-card {
+flex: 1 1 280px;
+background: rgba(255, 255, 255, 0.15);
+margin: 15px;
+padding: 20px;
+border-radius: 8px;
+backdrop-filter: blur(5px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+color: #fff;
+}
+.service-card h3 {
+margin-top: 0;
+}
+/* Testimonials */
+.testimonials {
+max-width: 800px;
+margin: auto;
+}
+.testimonial {
+background: rgba(255, 255, 255, 0.15);
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+backdrop-filter: blur(5px);
+}
+.testimonial p {
+font-style: italic;
+margin: 0;
+}
+.testimonial span {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+}
+/* Contact form */
+.contact-form {
+max-width: 500px;
+margin: auto;
+}
+.contact-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: none;
+border-radius: 4px;
+font-size: 1rem;
+}
+.contact-form button {
+display: block;
+width: 100%;
+padding: 12px;
+background: var(--color-yellow);
+border: none;
+color: var(--color-black);
+font-size: 1rem;
+font-weight: bold;
+border-radius: 4px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+.contact-form button:hover {
+background: #e6b800;
+}
+/* Footer */
+footer {
+background: var(--color-black);
+color: var(--color-yellow);
+text-align: center;
+padding: 20px 0;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.about .text {
+    padding-right: 0;
+}
+.service-card {
+    margin: 10px 0;
+}
+}
