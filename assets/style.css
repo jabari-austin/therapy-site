@@ -62,7 +62,7 @@ opacity: 0.8;
 }
 /* Hero section */
 .hero {
-background-image: url('../images/75f7ba59-09ff-4175-8dec-98689bc7a8e8.png');
+background-image: url('../images/afro_waves_light.png');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -107,15 +107,15 @@ margin-bottom: 20px;
 }
 /* About, services and testimonials section backgrounds */
 .about-section {
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1.png') center/cover no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1_light.png') center/cover no-repeat;
 color: #fff;
 }
 .services-section {
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene2.png') center/cover no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene2_light.png') center/cover no-repeat;
 color: #fff;
 }
 .testimonials-section {
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1.png') center/cover no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1_light.png') center/cover no-repeat;
 color: #fff;
 }
 /* About layout */
