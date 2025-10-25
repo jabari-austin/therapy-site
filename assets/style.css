@@ -3,7 +3,7 @@
 --color-red: #c1272d; /* deep red */
 --color-green: #007e33; /* rich green */
 --color-black: #0d0d0d; /* near-black */
-/*--color-yellow: #ffcc00; /* logo yellow */
+/* --color-yellow: #ffcc00; /* logo yellow */
 --color-yellow: #f2f230; /*    */
 --light-bg: #fafafa;
 }
@@ -41,6 +41,9 @@ nav .logo {
 font-size: 1.5rem;
 font-weight: bold;
 color: var(--color-yellow);
+}
+nav .logo img {
+height: 40px;
 }
 nav ul {
 list-style: none;
