@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <title>Warm &amp; Welcoming Therapy Practice</title> -->
+    <script src="https://kit.fontawesome.com/0119612cff.js" crossorigin="anonymous"></script>
     <title>A Journey to Consciousness – Welcome</title>
 
   </head>
@@ -35,12 +36,16 @@
     <section id="about" class="about-section">
       <div class="container about">
         <div class="text">
-          <h2>About Me</h2>
+          <h2>Joseph Jones M. Ed.</h2>
           <p>
-            Introduce yourself and your therapeutic philosophy here. Share what
-            inspires your practice as a Black therapist and how you create a
-            culturally affirming space for healing. Emphasize any specialties,
-            certifications, and your commitment to your clients' well‑being.
+            A student-centered school social worker (SSW) that has used the scholar’s best
+            interest as the driving force for the decision making process. Although I have
+            worked in the field of education for over 15 years, each day is an opportunity for
+            learning, particularly in an academic setting. Generally a pre-k -12 SSW,
+            working in various settings, including 3 years in therapeutic day placements, has
+            contributed to an overall holistic perspective. When bridges aren't being built,
+            enjoying family, traveling and reading about and practicing the principles of
+            Ma’at, are activities of interest.
           </p>
         </div>
         <div class="image">
@@ -108,7 +113,7 @@
       <div class="container">
         <h2>Contact</h2>
         <p>
-          Reach out to schedule a session or ask any questions you may have. Your
+          Reach out with any questions you may have. Book an appointment now with the button below. Your
           journey toward healing starts with a message.
         </p>
         <form class="contact-form" netlify>
@@ -123,15 +128,74 @@
       </div>
     </section>
 
+    <!-- Calendly inline widget -->
+    <!-- <div 
+      class="calendly-inline-widget" 
+      data-url="https://calendly.com/YOUR_USERNAME/meeting-name"
+      style="min-width:320px;height:700px;">
+    </div>
+
+    <script 
+      src="https://assets.calendly.com/assets/external/widget.js" 
+      async>
+    </script> -->
+
+    <!-- <a href="https://calendar.google.com/calendar/appointments/schedules/XXXX"
+    
+   target="_blank"
+   class="book-btn">
+  Book an Appointment
+  </a> -->
+
+  <!-- Google Calendar Appointment Scheduling begin -->
+  <!-- <div style="display:flex; justify-content:center;">
+    <iframe
+      src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pU_OzUssHeINYaGTQYWYvdFv5ctDGxT4kL2UIkIwn37YoFkVCR4Owr9MnqrCLxKUwfB3VRhYM?gv=true"
+      style="border:0; width:45%; height:750px;"
+      frameborder="0"
+      aria-label="Google Calendar appointments">
+    </iframe>
+  </div> -->
+
+  <!-- Google Calendar Appointment Scheduling begin -->
+  <div style="display:flex; justify-content:center; margin: 20px 0;">
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+  <script>
+  (function() {
+    var target = document.currentScript;
+    window.addEventListener('load', function() {
+      calendar.schedulingButton.load({
+        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pU_OzUssHeINYaGTQYWYvdFv5ctDGxT4kL2UIkIwn37YoFkVCR4Owr9MnqrCLxKUwfB3VRhYM?gv=true',
+        color: '#039BE5',
+        label: 'Book an appointment',
+        target,
+      });
+    });
+  })();
+  </script>
+  </div>
+  <!-- end Google Calendar Appointment Scheduling -->
+ 
+
+
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container"> 
+        <div class="social-icons">
+          <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
         &copy; <span id="year"></span> Your Practice. All rights reserved.
+        
+        <!-- Background music -->
+        <audio src="therapy_music.wav" autoplay loop controls style="width: 100%; max-width: 350px; display: block; margin: 10px auto;"></audio>
+    
       </div>
     </footer>
 
-    <!-- Background music -->
-    <audio src="therapy_music.wav" autoplay loop controls style="width: 100%; max-width: 350px; display: block; margin: 10px auto;"></audio>
     
   </body>
 </html>
