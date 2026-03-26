@@ -94,11 +94,11 @@ max-width: 700px;
 margin: 0 auto;
 }
 .hero-content h1 {
-font-size: 2.5rem;
+font-size: 3.0rem;
 margin-bottom: 10px;
 }
 .hero-content p {
-font-size: 1.1rem;
+font-size: 1.5rem;
 margin: 0;
 }
 /* Section styling */
@@ -111,7 +111,7 @@ text-align: center;
 font-size: 2rem;
 margin-bottom: 20px;
 }
-/* About, services and testimonials section backgrounds */
+/* About, services, testimonials, and insurance section backgrounds */
 .about-section {
 background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1_light.png') center/cover no-repeat;
 color: #fff;
@@ -124,6 +124,11 @@ color: #fff;
 background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene1_light.png') center/cover no-repeat;
 color: #fff;
 }
+.insurance-section {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/serene2_light.png') center/cover no-repeat;
+color: #fff;
+}
+
 /* About layout */
 .about {
 display: flex;
